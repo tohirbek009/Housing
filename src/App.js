@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+
+import Slide from './components/Slide'
+import Header from './components/Header'
+import Discover from './components/Discover'
+import Whyus from './components/Whyus'
+import Explore from './components/Explore'
+import Tends from './components/Tends'
+import RecentPR from './components/RecentProperties'
+import Testimonial from './components/Testimonial'
+import ExploreCity from './components/ExploreCity'
+import Agents from './components/Agents'
+import Blog from './components/Blog'
+import Registired from './components/Registired'
+import Footer from './components/Footer'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div>
+     <Header/>
+     <Slide/>
+     <Discover/>
+     <Whyus/>
+     <Explore/>
+     <Tends/>
+     <RecentPR/>
+     <Testimonial/>
+     <ExploreCity/>
+     <Agents/>
+     <Blog/>
+     <Registired/>
+     <Footer/>
+   </div>
   );
 }
 
